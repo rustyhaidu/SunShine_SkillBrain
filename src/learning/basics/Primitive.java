@@ -1,4 +1,4 @@
-package learning;
+package learning.basics;
 
 public class Primitive {
     public static void main(String[] args) {

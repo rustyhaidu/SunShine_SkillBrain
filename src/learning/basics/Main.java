@@ -11,9 +11,12 @@ package learning.basics;
 public class Main {
     public static void main(String[] args) {
 
-        String textLung = "Heello World!";
+        /*String textLung = "Heello World!";
 
-        System.out.println(textLung);
+        System.out.println(textLung);*/
+
+        String numeComplet = Metode.numeSiPrenumeConcatenat("Popescu", "Ciprian");
+        System.out.println("Nume complet: " + numeComplet);
 
     }
 }

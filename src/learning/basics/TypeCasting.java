@@ -27,7 +27,7 @@ public class TypeCasting {
         --numarIntreg;
         System.out.println("Numar decrementat: " + numarIntreg);*/
 
-        // System.out.println("Numar incrmentat pe aceeasi linie: " + numarIntreg++);
+        //System.out.println("Numar incrmentat pe aceeasi linie: " + numarIntreg++);
         //System.out.println("Numar incrmentat pe aceeasi linie: " + ++numarIntreg);
 
         numarIntreg+=3; // incrementare cu orice numar

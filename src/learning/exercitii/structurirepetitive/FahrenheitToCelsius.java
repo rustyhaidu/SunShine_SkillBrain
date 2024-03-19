@@ -8,7 +8,7 @@ import java.util.Scanner;
  *
  */
 public class FahrenheitToCelsius {
-    public static void main(String[] arr) {
+    /*public static void main(String[] arr) {
         Scanner scanner=new Scanner(System.in);
         System.out.println("introduceti grade fahrenheit: ");
         double gradeFahrenheit=scanner.nextDouble();
@@ -16,7 +16,7 @@ public class FahrenheitToCelsius {
         System.out.println("grade celsius: " + gradeCelsius);
 
 
-    }
+    }*/
     public static int fahrenheitToCelsius(double gradeFahrenheit){
         int celsius= (int)((gradeFahrenheit-32) *5/9);
       return celsius ;

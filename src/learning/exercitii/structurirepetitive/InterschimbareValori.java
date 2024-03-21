@@ -16,7 +16,8 @@ public class InterschimbareValori {
         a = scanner.nextInt();
         System.out.println("Introduceti al doilea numar: ");
         b = scanner.nextInt();
-        interschimbare();
+        //interschimbare();
+        interschimbareCuVariabilaNoua();
         System.out.println("a= " + a);
         System.out.println("b= " + b);
     }
@@ -27,5 +28,16 @@ public class InterschimbareValori {
         a = a - b;
 
     }
+
+    // Sa interschimbam valoarea din 2 variabile folosind o a treia variabila, citind de la tastatura
+    public static void interschimbareCuVariabilaNoua() {
+        int c;
+        c=a;
+        a=b;
+        b=c;
+
+    }
+
+
 
 }

@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class ComparatieDouaStringuri {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Introdul primul string :");
+        System.out.println("Introdu primul string :");
         String string1 = scanner.nextLine();
-        System.out.println("Al doilea primul string :");
+        System.out.println("Introdu al doilea string :");
         String string2 = scanner.nextLine();
         boolean suntLaFel =suntLaFel(string1,string2);
         System.out.println("Sunt la fel: " + suntLaFel );

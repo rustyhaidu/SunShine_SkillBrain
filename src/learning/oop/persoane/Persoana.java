@@ -5,6 +5,7 @@ public class Persoana {
     String prenume;
     Adresa adresa ;
     int varsta;
+    static String culoare;
 
     public void aniversare (){
         varsta++;

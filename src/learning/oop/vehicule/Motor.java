@@ -1,4 +1,4 @@
-package learning.oop;
+package learning.oop.vehicule;
 
 public class Motor {
     private String serieMotor;

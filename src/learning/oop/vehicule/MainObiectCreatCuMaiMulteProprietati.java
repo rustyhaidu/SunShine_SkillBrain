@@ -1,4 +1,6 @@
-package learning.oop;
+package learning.oop.vehicule;
+
+import learning.oop.vehicule.Car;
 
 public class MainObiectCreatCuMaiMulteProprietati {
     public static void main(String[] args) {

@@ -1,4 +1,6 @@
-package learning.oop;
+package learning.oop.vehicule;
+
+import learning.oop.vehicule.Car;
 
 import java.util.Scanner;
 

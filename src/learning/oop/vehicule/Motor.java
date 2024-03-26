@@ -14,4 +14,11 @@ public class Motor {
     public void setSerieMotor(String serieMotor){
         this.serieMotor = serieMotor;
     }
+
+    @Override
+    public String toString() {
+        return "Motor{" +
+                "serieMotor='" + serieMotor + '\'' +
+                '}';
+    }
 }

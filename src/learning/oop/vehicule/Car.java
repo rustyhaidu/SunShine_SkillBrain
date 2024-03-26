@@ -35,4 +35,14 @@ public class Car {
     public void setMotor(Motor motor){
         this.motor = motor;
     }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "numeleMasinii='" + numeleMasinii + '\'' +
+                ", vitezaMaxima=" + vitezaMaxima +
+                ", stareMasina='" + stareMasina + '\'' +
+                ", motor=" + motor +
+                '}';
+    }
 }
